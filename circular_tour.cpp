@@ -6,7 +6,7 @@ struct petrolPump
 {
     int petrol;
     int distance;
-};
+};//
 
 
 // } Driver Code Ends
