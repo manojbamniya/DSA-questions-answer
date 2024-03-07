@@ -26,6 +26,7 @@ class Solution{
     //the complete circle without exhausting its petrol in between.
     int tour(petrolPump p[],int n)
     {
+        //first we consider a deficient so we dont have to move double time on single pump
        int deficient =0;
        int balance = 0;
        int start =0;
